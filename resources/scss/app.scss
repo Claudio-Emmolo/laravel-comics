@@ -1,4 +1,5 @@
 @import '~bootstrap/scss/bootstrap';
+$comic-blue: #0282f9;
 // ----------- HEADER ----------- //
 
 section#jumbo {
@@ -8,8 +9,45 @@ section#jumbo {
 }
 
 // ----------- HOMEPAGE ----------- //
-main {
+main#home {
     background-color: #1c1c1c;
+
+    div.title-series-section {
+        position: absolute;
+        top: 0;
+        transform: translateY(-55%);
+        background-color: $comic-blue;
+        color: white;
+        padding: .8rem 1.5rem;
+
+        h2 {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+    }
+
+}
+
+// ----------- SINGLE ----------- //
+main#single {
+    div.comic-thumb {
+        background-color: $comic-blue;
+        height: 80px;
+
+        img {
+            position: absolute;
+            top: 0;
+            transform: translateY(-85%);
+        }
+    }
+
+    section#other-info-comic {
+        background-color: #f6f6f6;
+        border-top: 1px solid rgb(161, 161, 161);
+        padding: 1rem 0;
+    }
+
 }
 
 

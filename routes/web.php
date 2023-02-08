@@ -18,3 +18,9 @@ Route::get('/', function () {
     //dd($comicList);
     return view('home', ['comicList' => $comicList]);
 })->name('homepage');
+
+Route::get('/single', function () {
+    $comicList = config('comics');
+    //dd($comicList);
+    return view('single', ['comicList' => $comicList]);
+})->name('single');
