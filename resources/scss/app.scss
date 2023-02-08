@@ -153,19 +153,23 @@ div.single-nav {
         text-transform: uppercase;
     }
 
-    ul li {
-        list-style-type: none;
-        margin: .15rem 0;
+    ul {
+        padding: 0;
 
-        a {
-            text-decoration: none;
-            color: $white;
-            font-weight: 300;
-            font-size: .8rem;
-            filter: opacity(.6);
+        li {
+            list-style-type: none;
+            margin: .20rem 0;
 
-            &:hover {
-                filter: opacity(1);
+            a {
+                text-decoration: none;
+                color: $white;
+                font-weight: 300;
+                font-size: .8rem;
+                filter: opacity(.6);
+
+                &:hover {
+                    filter: opacity(1);
+                }
             }
         }
     }

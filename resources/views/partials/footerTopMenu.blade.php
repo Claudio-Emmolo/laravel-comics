@@ -1,7 +1,6 @@
 <section id="top-footer">
     <div class="container d-flex flex-between">
-        <div class="nav-info d-flex">
-
+        <div class="nav-info d-flex flex-column">
             <nav class="d-flex">
                 <div class="nav-wrap">
                     <div class="single-nav">
@@ -9,25 +8,25 @@
                         <!-- Generate Nav for DC Comics  -->
                         <ul>
                             <li>
-                                <a href="#">Item</a>
+                                <a href="#">Chatacters</a>
                             </li>
                             <li>
-                                <a href="#">Item</a>
+                                <a href="#">Comics</a>
                             </li>
                             <li>
-                                <a href="#">Item</a>
+                                <a href="#">Movies</a>
                             </li>
                             <li>
-                                <a href="#">Item</a>
+                                <a href="#">TV</a>
                             </li>
                             <li>
-                                <a href="#">Item</a>
+                                <a href="#">Games</a>
                             </li>
                             <li>
-                                <a href="#">Item</a>
+                                <a href="#">Videos</a>
                             </li>
                             <li>
-                                <a href="#">Item</a>
+                                <a href="#">News</a>
                             </li>
                         </ul>
                     </div>
@@ -35,16 +34,12 @@
                     <div class="single-nav shop-nav">
                         <h2>Shop</h2>
                         <!-- Generate Nav for Shop  -->
-
                         <ul>
                             <li>
-                                <a href="#">Item</a>
+                                <a href="#">Shop Dc</a>
                             </li>
                             <li>
-                                <a href="#">Item</a>
-                            </li>
-                            <li>
-                                <a href="#">Item</a>
+                                <a href="#">Shop DC Collectibles</a>
                             </li>
                         </ul>
                     </div>
@@ -55,37 +50,37 @@
                     <!-- Generate Nav for DC  -->
                     <ul>
                         <li>
-                            <a href="#">Item</a>
+                            <a href="#">Term Of Use</a>
                         </li>
                         <li>
-                            <a href="#">Item</a>
+                            <a href="#">Privacy policy (New)</a>
                         </li>
                         <li>
-                            <a href="#">Item</a>
+                            <a href="#">Ad Choices</a>
                         </li>
                         <li>
-                            <a href="#">Item</a>
+                            <a href="#">Advertising</a>
                         </li>
                         <li>
-                            <a href="#">Item</a>
+                            <a href="#">Jobs</a>
                         </li>
                         <li>
-                            <a href="#">Item</a>
+                            <a href="#">Subscriptions</a>
                         </li>
                         <li>
-                            <a href="#">Item</a>
+                            <a href="#">Talent Workshops</a>
                         </li>
                         <li>
-                            <a href="#">Item</a>
+                            <a href="#">CPSC Certigicates</a>
                         </li>
                         <li>
-                            <a href="#">Item</a>
+                            <a href="#">Ratings</a>
                         </li>
                         <li>
-                            <a href="#">Item</a>
+                            <a href="#">Shop Help</a>
                         </li>
                         <li>
-                            <a href="#">Item</a>
+                            <a href="#">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -95,19 +90,19 @@
                     <!-- Generate Nav for Sistes  -->
                     <ul>
                         <li>
-                            <a href="#">Item</a>
+                            <a href="#">DC</a>
                         </li>
                         <li>
-                            <a href="#">Item</a>
+                            <a href="#">MAD Magazine</a>
                         </li>
                         <li>
-                            <a href="#">Item</a>
+                            <a href="#">DC Kids</a>
                         </li>
                         <li>
-                            <a href="#">Item</a>
+                            <a href="#">DC Universe</a>
                         </li>
                         <li>
-                            <a href="#">Item</a>
+                            <a href="#">DC Power Visa</a>
                         </li>
                     </ul>
                 </div>
