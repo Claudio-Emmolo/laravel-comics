@@ -6,6 +6,8 @@ section#jumbo {
     width: 100%;
     height: 500px;
     background-image: url(../assets/images/jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 // ----------- HOMEPAGE ----------- //
@@ -52,10 +54,90 @@ main#single {
 
 
 // ----------- FOOTER ----------- //
+// section#top-footer {
+//     background-image: url(../assets/images/footer-bg.jpg);
+//     background-size: cover;
+//     background-repeat: no-repeat;
+// }
 
-footer section#top-footer {
-    height: 300px; //To remove
+// div.nav-info nav {
+//     h2 {
+//         font-weight: bold;
+//         font-size: 1.5rem;
+//         margin-bottom: .5rem;
+//         color: $white;
+//         text-transform: uppercase;
+//     }
+
+//     ul li a {
+//         text-decoration: none;
+//         color: $white;
+//         font-weight: 300;
+//         font-size: .8rem;
+//         filter: opacity(.6);
+//     }
+// }
+
+section#top-footer {
     background-image: url(../assets/images/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.nav-info {
+    padding: 2rem 0;
+}
+
+div.single-nav {
+    margin-right: 2rem;
+    width: max-content;
+
+    h2 {
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: .5rem;
+        color: $white;
+        text-transform: uppercase;
+    }
+
+    ul li {
+        list-style-type: none;
+        margin: .15rem 0;
+
+        a {
+            text-decoration: none;
+            color: $white;
+            font-weight: 300;
+            font-size: .8rem;
+            filter: opacity(.6);
+
+            &:hover {
+                filter: opacity(1);
+            }
+        }
+    }
+}
+
+div.shop-nav {
+    margin-top: 1.5rem;
+}
+
+div.nav-info nav {
+    padding: 0 1rem;
+}
+
+div.dc-bg-img {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+    img {
+        height: 150%;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
 }
 
 footer section#bottom-footer {

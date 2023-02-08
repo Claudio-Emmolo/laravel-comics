@@ -1,10 +1,7 @@
 <footer>
 
-    <section id="top-footer">
-        <div class="container">
 
-        </div>
-    </section>
+    @include('partials.footerTopMenu')
 
     <section id="bottom-footer" class="py-4">
         <div class="container d-flex justify-content-between">
