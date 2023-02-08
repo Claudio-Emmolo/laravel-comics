@@ -81,7 +81,42 @@ main#single {
         padding: 1rem 0;
     }
 
+    div.info-title {
+        padding-bottom: 2rem;
+
+        h3 {
+            font-weight: bold;
+        }
+    }
+
+    div.info-title,
+    div.single-info {
+        border-bottom: 1px solid rgb(161, 161, 161);
+    }
+
+    div.single-info {
+        padding: .5rem 1rem;
+    }
+
+    .spec-text-blue {
+        color: $comic-blue;
+    }
+
+    div.price-box {
+        background-color: #55ba59;
+        color: white;
+
+        .text-opacity {
+            opacity: .5;
+        }
+
+        div.col-8 {
+            border-right: 1px solid black;
+        }
+    }
+
 }
+
 
 
 // ----------- FOOTER ----------- //

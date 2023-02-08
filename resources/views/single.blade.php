@@ -18,12 +18,15 @@
                     <div class="col-8">
                         <h2 class="text-uppercase">{{$singleComic['title']}}</h2>
 
-                        <div class="price-box my-3 bg-success p-3">
+                        <div class="price-box my-3 p-3">
                             <div class="row">
                                 <div class="col-8 d-flex justify-content-between">
-                                    <span><span>U.S. Price </span>{{$singleComic['price']}}</span>
+                                    <div class="price">
+                                        <span class="text-opacity">U.S. Price </span> <span class="fw-bold">{{$singleComic['price']}}</span>
+                                    </div>
+                                    <span class="text-opacity text-uppercase">Available</span>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-4 text-center">
                                     <span class="fs-6 fw-bold">Check Availability</span>
                                 </div>
                             </div>
@@ -43,14 +46,16 @@
                 <div class="row">
                     <div class="col-6">
                         <div class="talent">
-                            <h3>Talent</h3>
+                            <div class="info-title">
+                                <h3>Talent</h3>
+                            </div>
                             <div class="single-info d-flex">
                                 <div class="w-50">
                                     <span class="d-block">Art By:</span>
                                 </div>
                                 <div class="w-75">
 
-                                    <p class="ps-3">
+                                    <p class="ps-3 spec-text-blue">
                                         @foreach ($singleComic['artists'] as $artist)
                                         {{$artist}}
                                         @endforeach
@@ -64,7 +69,7 @@
                                 </div>
                                 <div class="w-75">
 
-                                    <p class="ps-3">
+                                    <p class="ps-3 spec-text-blue">
                                         @foreach ($singleComic['writers'] as $writer)
                                         {{$writer}}
                                         @endforeach
@@ -76,10 +81,12 @@
                     </div>
                     <div class="col-6">
                         <div class="spec">
-                            <h3>Specs</h3>
+                            <div class="info-title">
+                                <h3>Specs</h3>
+                            </div>
                             <div class="single-info d-flex">
                                 <p>
-                                    <span>Series:</span> <span>{{$singleComic['series']}}</span>
+                                    <span>Series:</span> <span class="text-uppercase fw-bold spec-text-blue">{{$singleComic['series']}}</span>
                                 </p>
                             </div>
                             <div class="single-info d-flex">
