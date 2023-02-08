@@ -12,6 +12,14 @@
 </head>
 
 <body>
+    <!-- Header -->
+    @include('partials.header')
+
+    <!-- Main Contents -->
+    @yield('main-app')
+
+    <!-- Footer -->
+    @include('partials.footer')
 
 </body>
 
