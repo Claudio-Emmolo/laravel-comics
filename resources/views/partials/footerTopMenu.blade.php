@@ -1,5 +1,5 @@
 <section id="top-footer">
-    <div class="container-wrapped d-flex flex-between">
+    <div class="container d-flex flex-between">
         <div class="nav-info d-flex">
 
             <nav class="d-flex">

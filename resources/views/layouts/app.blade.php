@@ -8,7 +8,6 @@
 
     <!-- Styles -->
     @vite('resources/js/app.js')
-    @yield('style')
 
 </head>
 
