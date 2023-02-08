@@ -11,10 +11,10 @@
         <div class="text-light pt-5">
             <div class="row row-cols-6">
                 @foreach ($comicList as $comic)
-                <div class="col">
-                    <div class="img-container w-100 h-50">
+                <div class="col single-card">
+                    <div class="img-container overflow-hidden">
                         <a href="/single">
-                            <img src="{{$comic['thumb']}}" alt="" class="h-100 w-100">
+                            <img src="{{$comic['thumb']}}" alt="">
                         </a>
                     </div>
                     <h3 class="fs-6 fw-bold text-uppercase">
