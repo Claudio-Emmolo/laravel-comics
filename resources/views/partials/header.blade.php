@@ -1,8 +1,8 @@
 <header>
-    <nav class="p-2 container d-flex justify-content-between align-items-center">
+    <nav class="p-0 container d-flex justify-content-between align-items-center">
         <img src="{{Vite::asset('resources/assets/images/dc-logo.png')}}" alt="DC main logo">
         <ul>
-            <li>
+            <li class="active">
                 <a href="/">
                     Home
                 </a>

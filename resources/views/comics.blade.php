@@ -22,7 +22,7 @@
                     </h3>
                 </div>
                 @endforeach
-                <a href="#" class="btn btn-primary m-auto mb-5">Load More</a>
+                <a href="#" class="btn btn-primary m-auto mb-5 text-uppercase fw-bold">Load More</a>
             </div>
         </div>
         

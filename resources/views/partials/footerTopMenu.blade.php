@@ -106,7 +106,12 @@
                         </li>
                     </ul>
                 </div>
+
             </nav>
+            <p class="copyright">
+                All Site Content and &copy; 2020 DC Entertainment, unles otherwise <a href="#">noted here.</a> All rights reserved. <br>
+                <a href="#">Cookies Settings</a>            
+            </p>
         </div>
 
         <!-- DC Trasparent Logo  -->

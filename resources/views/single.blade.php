@@ -16,7 +16,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-8">
-                        <h2 class="text-uppercase">{{$singleComic['title']}}</h2>
+                        <h2 class="text-uppercase fw-bold">{{$singleComic['title']}}</h2>
 
                         <div class="price-box my-3 p-3">
                             <div class="row">
@@ -24,7 +24,7 @@
                                     <div class="price">
                                         <span class="text-opacity">U.S. Price </span> <span class="fw-bold">{{$singleComic['price']}}</span>
                                     </div>
-                                    <span class="text-opacity text-uppercase">Available</span>
+                                    <span class="text-opacity text-uppercase fw-bold">Available</span>
                                 </div>
                                 <div class="col-4 text-center">
                                     <span class="fs-6 fw-bold">Check Availability</span>
@@ -34,7 +34,8 @@
 
                         <p>{{$singleComic['description']}}</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 fs-6 text-uppercase d-flex flex-column">
+                        <span class="fw-bold text-end">Advertising</span>
                         <img src="{{Vite::asset('resources/assets/images/adv.jpg')}}" alt="{{$singleComic['series']}}" class="img-fluid">
                     </div>
                 </div>
@@ -57,7 +58,7 @@
 
                                     <p class="ps-3 spec-text-blue">
                                         @foreach ($singleComic['artists'] as $artist)
-                                        {{$artist}}
+                                        {{$artist.','}}
                                         @endforeach
                                     </p>
                                 </div>
@@ -65,13 +66,13 @@
                             <div class="single-info d-flex">
 
                                 <div class="w-50">
-                                    <span class="d-block">Art By:</span>
+                                    <span class="d-block">Written By:</span>
                                 </div>
                                 <div class="w-75">
 
                                     <p class="ps-3 spec-text-blue">
                                         @foreach ($singleComic['writers'] as $writer)
-                                        {{$writer}}
+                                        {{$writer.','}}
                                         @endforeach
                                     </p>
                                 </div>

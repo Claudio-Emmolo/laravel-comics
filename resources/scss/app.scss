@@ -10,22 +10,37 @@ section#jumbo {
     background-repeat: no-repeat;
 }
 
-header nav ul {
-    display: flex;
+header nav {
+    height: 150px;
 
-    li {
-        list-style-type: none;
-        margin: 0 .5rem;
+    ul {
+        height: 100%;
+        display: flex;
+        margin: 0;
 
-        a {
-            text-decoration: none;
-            text-transform: uppercase;
-            color: black;
-            font-weight: bold;
+        li {
+            list-style-type: none;
+            margin: 0 .5rem;
+            display: flex;
+            align-items: center;
+            border-bottom: 5px solid transparent;
 
-            &:hover {
-                color: $comic-blue;
+
+
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: black;
+                font-weight: bold;
+
+                &:hover {
+                    color: $comic-blue;
+                }
             }
+        }
+
+        li.active {
+            border-bottom: 5px solid $comic-blue;
         }
     }
 }
@@ -183,6 +198,18 @@ div.nav-info nav {
     padding: 0 1rem;
 }
 
+p.copyright {
+    width: 130%;
+    position: relative;
+    font-size: .9rem;
+    color: white;
+
+    a {
+        text-decoration: none;
+        color: $comic-blue;
+    }
+}
+
 div.dc-bg-img {
     width: 100%;
     position: relative;
@@ -199,4 +226,41 @@ div.dc-bg-img {
 
 footer section#bottom-footer {
     background-color: #303030;
+
+    a.sign-up-btn {
+        text-decoration: none;
+        color: white;
+        border: 3px solid $comic-blue;
+        padding: .8rem 1.5rem;
+
+        &:hover {
+            background-color: $comic-blue;
+        }
+    }
+
+    div.follow-us button {
+        width: 40px;
+        height: 40px;
+        background-color: #797979;
+        border: none;
+        padding: 1rem;
+        border-radius: 50%;
+        margin: 0.2rem;
+        padding: 0;
+        transition: all .3s;
+
+        i {
+            color: #303030;
+            font-size: 1.3rem;
+            margin-top: .3rem;
+        }
+
+        &:hover {
+            background-color: $comic-blue;
+
+            i {
+                color: white;
+            }
+        }
+    }
 }
